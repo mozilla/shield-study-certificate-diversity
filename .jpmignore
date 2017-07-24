@@ -9,6 +9,7 @@
 
 ## these node modules should ship
 !/node_modules/shield-studies-addon-utils/**
+!/node_modules/sjcl/**
 
 ## allow in lib and data
 !/{lib,data}/**

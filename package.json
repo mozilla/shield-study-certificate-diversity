@@ -7,12 +7,12 @@
     "url": "https://github.com/mozilla/shield-study-certificate-diversity/issues"
   },
   "dependencies": {
-    "shield-studies-addon-utils": "2.0.0"
+    "shield-studies-addon-utils": "2.0.0",
+    "sjcl": "1.0.7"
   },
   "devDependencies": {
     "addons-linter": "^0.15.5",
     "chai": "^3.5.0",
-    "crypto-js": "^3.1.9-1",
     "depcheck-ci": "^1.0.1",
     "eslint": "^3.6.1",
     "fixpack": "^2.3.1",
@@ -53,5 +53,5 @@
     "pretest": "npm-run-all lint:*",
     "test": "grunt test && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100 coverage/reports/coverage.json"
   },
-  "title": "Template for creating shield study add-ons"
+  "title": "Certificate Diversity"
 }
